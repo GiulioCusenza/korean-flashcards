@@ -25,58 +25,58 @@ korean,english,example,example_translation,category
 오후,afternoon,오후에 산책을 해요.,I take a walk in the afternoon.,daytime
 저녁,evening,저녁에 가족과 식사해요.,I have dinner with family in the evening.,daytime
 밤,night,밤에 잠을 자요.,I sleep at night.,daytime
-하나,one,사과가 하나 있어요.,There is one apple.,number_korean
-둘,two,책이 두 권 있어요.,There are two books.,number_korean
-셋,three,친구가 세 명 있어요.,I have three friends.,number_korean
-넷,four,의자가 네 개 있어요.,There are four chairs.,number_korean
-다섯,five,손가락이 다섯 개 있어요.,There are five fingers.,number_korean
-여섯,six,연필이 여섯 자루 있어요.,There are six pencils.,number_korean
-일곱,seven,학생이 일곱 명 있어요.,There are seven students.,number_korean
-여덟,eight,사탕이 여덟 개 있어요.,There are eight candies.,number_korean
-아홉,nine,공이 아홉 개 있어요.,There are nine balls.,number_korean
-열,ten,책이 열 권 있어요.,There are ten books.,number_korean
-열하나,eleven,사람이 열한 명 있어요.,There are eleven people.,number_korean
-스물,twenty,사과가 스무 개 있어요.,There are twenty apples.,number_korean
-서른셋,thirty-three,공이 서른세 개 있어요.,There are thirty-three balls.,number_korean
-마흔넷,forty-four,사람이 마흔네 명 있어요.,There are forty-four people.,number_korean
-쉰여섯,fifty-six,사과가 쉰여섯 개 있어요.,There are fifty-six apples.,number_korean
-예순넷,sixty-four,달걀이 예순네 개 있어요.,There are sixty-four eggs.,number_korean
-일흔,seventy,학생이 일흔 명 있어요.,There are seventy students.,number_korean
-여든셋,eighty-three,사탕이 여든세 개 있어요.,There are eighty-three candies.,number_korean
-아흔넷,ninety-four,책이 아흔네 권 있어요.,There are ninety-four books.,number_korean
-백,one hundred,사람이 백 명 있어요.,There are one hundred people.,number_korean
-일,one (Sino-Korean),사과가 일 개 있어요.,There is one apple.,number_sinokorean
-이,two (Sino-Korean),책이 이 권 있어요.,There are two books.,number_sinokorean
-삼,three (Sino-Korean),친구가 삼 명 있어요.,I have three friends.,number_sinokorean
-사,four (Sino-Korean),의자가 사 개 있어요.,There are four chairs.,number_sinokorean
-오,five (Sino-Korean),손가락이 오 개 있어요.,There are five fingers.,number_sinokorean
-육,six (Sino-Korean),연필이 육 자루 있어요.,There are six pencils.,number_sinokorean
-칠,seven (Sino-Korean),학생이 칠 명 있어요.,There are seven students.,number_sinokorean
-팔,eight (Sino-Korean),사탕이 팔 개 있어요.,There are eight candies.,number_sinokorean
-구,nine (Sino-Korean),공이 구 개 있어요.,There are nine balls.,number_sinokorean
-십,ten (Sino-Korean),책이 십 권 있어요.,There are ten books.,number_sinokorean
-이십,twenty (Sino-Korean),사과가 이십 개 있어요.,There are twenty apples.,number_sinokorean
-삼십,thirty (Sino-Korean),공이 삼십 개 있어요.,There are thirty balls.,number_sinokorean
-사십,forty (Sino-Korean),사람이 사십 명 있어요.,There are forty people.,number_sinokorean
-오십,fifty (Sino-Korean),사과가 오십 개 있어요.,There are fifty apples.,number_sinokorean
-육십,sixty (Sino-Korean),달걀이 육십 개 있어요.,There are sixty eggs.,number_sinokorean
-칠십,seventy (Sino-Korean),학생이 칠십 명 있어요.,There are seventy students.,number_sinokorean
-팔십,eighty (Sino-Korean),사탕이 팔십 개 있어요.,There are eighty candies.,number_sinokorean
-구십,ninety (Sino-Korean),책이 구십 권 있어요.,There are ninety books.,number_sinokorean
-백,one hundred (Sino-Korean),사람이 백 명 있어요.,There are one hundred people.,number_sinokorean
-천,one thousand (Sino-Korean),학생이 천 명 있어요.,There are one thousand students.,number_sinokorean
-만,ten thousand (Sino-Korean),사람이 만 명 있어요.,There are ten thousand people.,number_sinokorean
-십만,one hundred thousand (Sino-Korean),사람이 십만 명 있어요.,There are one hundred thousand people.,number_sinokorean
-백만,one million (Sino-Korean),사람이 백만 명 있어요.,There are one million people.,number_sinokorean
-마흔둘,forty-two,사람이 마흔두 명 있어요.,There are forty-two people.,number_korean
-일흔일곱,seventy-seven,학생이 일흔일곱 명 있어요.,There are seventy-seven students.,number_korean
-열다섯,fifteen,사과가 열다섯 개 있어요.,There are fifteen apples.,number_korean
-예순셋,sixty-three,책이 예순세 권 있어요.,There are sixty-three books.,number_korean
-아흔여덟,ninety-eight,공이 아흔여덟 개 있어요.,There are ninety-eight balls.,number_korean
-이백삼십사,two hundred thirty-four,사과가 이백삼십사 개 있어요.,There are two hundred thirty-four apples.,number_korean
-천오백팔십칠,one thousand five hundred eighty-seven,학생이 천오백팔십칠 명 있어요.,There are one thousand five hundred eighty-seven students.,number_korean
-사천구백이십일,four thousand nine hundred twenty-one,책이 사천구백이십일 권 있어요.,There are four thousand nine hundred twenty-one books.,number_korean
-팔천칠백육십오,eight thousand seven hundred sixty-five,공이 팔천칠백육십오 개 있어요.,There are eight thousand seven hundred sixty-five balls.,number_korean
+하나,one,사과가 하나 있어요.,There is one apple.,korean numbers
+둘,two,책이 두 권 있어요.,There are two books.,korean numbers
+셋,three,친구가 세 명 있어요.,I have three friends.,korean numbers
+넷,four,의자가 네 개 있어요.,There are four chairs.,korean numbers
+다섯,five,손가락이 다섯 개 있어요.,There are five fingers.,korean numbers
+여섯,six,연필이 여섯 자루 있어요.,There are six pencils.,korean numbers
+일곱,seven,학생이 일곱 명 있어요.,There are seven students.,korean numbers
+여덟,eight,사탕이 여덟 개 있어요.,There are eight candies.,korean numbers
+아홉,nine,공이 아홉 개 있어요.,There are nine balls.,korean numbers
+열,ten,책이 열 권 있어요.,There are ten books.,korean numbers
+열하나,eleven,사람이 열한 명 있어요.,There are eleven people.,korean numbers
+스물,twenty,사과가 스무 개 있어요.,There are twenty apples.,korean numbers
+서른셋,thirty-three,공이 서른세 개 있어요.,There are thirty-three balls.,korean numbers
+마흔넷,forty-four,사람이 마흔네 명 있어요.,There are forty-four people.,korean numbers
+쉰여섯,fifty-six,사과가 쉰여섯 개 있어요.,There are fifty-six apples.,korean numbers
+예순넷,sixty-four,달걀이 예순네 개 있어요.,There are sixty-four eggs.,korean numbers
+일흔,seventy,학생이 일흔 명 있어요.,There are seventy students.,korean numbers
+여든셋,eighty-three,사탕이 여든세 개 있어요.,There are eighty-three candies.,korean numbers
+아흔넷,ninety-four,책이 아흔네 권 있어요.,There are ninety-four books.,korean numbers
+백,one hundred,사람이 백 명 있어요.,There are one hundred people.,korean numbers
+일,one (Sino-Korean),사과가 일 개 있어요.,There is one apple.,sinokorean numbers
+이,two (Sino-Korean),책이 이 권 있어요.,There are two books.,sinokorean numbers
+삼,three (Sino-Korean),친구가 삼 명 있어요.,I have three friends.,sinokorean numbers
+사,four (Sino-Korean),의자가 사 개 있어요.,There are four chairs.,sinokorean numbers
+오,five (Sino-Korean),손가락이 오 개 있어요.,There are five fingers.,sinokorean numbers
+육,six (Sino-Korean),연필이 육 자루 있어요.,There are six pencils.,sinokorean numbers
+칠,seven (Sino-Korean),학생이 칠 명 있어요.,There are seven students.,sinokorean numbers
+팔,eight (Sino-Korean),사탕이 팔 개 있어요.,There are eight candies.,sinokorean numbers
+구,nine (Sino-Korean),공이 구 개 있어요.,There are nine balls.,sinokorean numbers
+십,ten (Sino-Korean),책이 십 권 있어요.,There are ten books.,sinokorean numbers
+이십,twenty (Sino-Korean),사과가 이십 개 있어요.,There are twenty apples.,sinokorean numbers
+삼십,thirty (Sino-Korean),공이 삼십 개 있어요.,There are thirty balls.,sinokorean numbers
+사십,forty (Sino-Korean),사람이 사십 명 있어요.,There are forty people.,sinokorean numbers
+오십,fifty (Sino-Korean),사과가 오십 개 있어요.,There are fifty apples.,sinokorean numbers
+육십,sixty (Sino-Korean),달걀이 육십 개 있어요.,There are sixty eggs.,sinokorean numbers
+칠십,seventy (Sino-Korean),학생이 칠십 명 있어요.,There are seventy students.,sinokorean numbers
+팔십,eighty (Sino-Korean),사탕이 팔십 개 있어요.,There are eighty candies.,sinokorean numbers
+구십,ninety (Sino-Korean),책이 구십 권 있어요.,There are ninety books.,sinokorean numbers
+백,one hundred (Sino-Korean),사람이 백 명 있어요.,There are one hundred people.,sinokorean numbers
+천,one thousand (Sino-Korean),학생이 천 명 있어요.,There are one thousand students.,sinokorean numbers
+만,ten thousand (Sino-Korean),사람이 만 명 있어요.,There are ten thousand people.,sinokorean numbers
+십만,one hundred thousand (Sino-Korean),사람이 십만 명 있어요.,There are one hundred thousand people.,sinokorean numbers
+백만,one million (Sino-Korean),사람이 백만 명 있어요.,There are one million people.,sinokorean numbers
+마흔둘,forty-two,사람이 마흔두 명 있어요.,There are forty-two people.,korean numbers
+일흔일곱,seventy-seven,학생이 일흔일곱 명 있어요.,There are seventy-seven students.,korean numbers
+열다섯,fifteen,사과가 열다섯 개 있어요.,There are fifteen apples.,korean numbers
+예순셋,sixty-three,책이 예순세 권 있어요.,There are sixty-three books.,korean numbers
+아흔여덟,ninety-eight,공이 아흔여덟 개 있어요.,There are ninety-eight balls.,korean numbers
+이백삼십사,two hundred thirty-four,사과가 이백삼십사 개 있어요.,There are two hundred thirty-four apples.,korean numbers
+천오백팔십칠,one thousand five hundred eighty-seven,학생이 천오백팔십칠 명 있어요.,There are one thousand five hundred eighty-seven students.,korean numbers
+사천구백이십일,four thousand nine hundred twenty-one,책이 사천구백이십일 권 있어요.,There are four thousand nine hundred twenty-one books.,korean numbers
+팔천칠백육십오,eight thousand seven hundred sixty-five,공이 팔천칠백육십오 개 있어요.,There are eight thousand seven hundred sixty-five balls.,korean numbers
 잔,counter for cups,커피 한 잔 주세요.,Please give me one cup of coffee.,counter
 개,default counter,사과 두 개 있어요.,There are two apples.,counter
 병,counter for bottles,물 세 병 있어요.,There are three bottles of water.,counter

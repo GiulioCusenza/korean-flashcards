@@ -43,18 +43,20 @@ else:
 
     card = data.iloc[st.session_state.card_idx]
 
+    st.markdown(f"*{card['category']}*")
     st.markdown(f"# {card['korean']}")
     st.markdown(f"### Ex.: {card['example']}")
 
-    if not st.session_state.show_clicked:
-        if st.button("Show"):
-            st.session_state.show_clicked = True
-            st.experimental_rerun()
-    else:
-        st.markdown(f"## {card['english']}")
-        st.markdown(f"### Ex.: {card['example_translation']}")
+    with st.form(key='flashcard_form'):
+        if not st.session_state.show_clicked:
+            if st.form_submit_button("Show"):
+                st.session_state.show_clicked = True
+                st.experimental_rerun()
+        else:
+            st.markdown(f"## {card['english']}")
+            st.markdown(f"### Ex.: {card['example_translation']}")
 
-    if st.button("Next"):
-        st.session_state.card_idx = random.randint(0, len(data)-1)
-        st.session_state.show_clicked = False
-        st.experimental_rerun()
+        if st.form_submit_button("Next"):
+            st.session_state.card_idx = random.randint(0, len(data)-1)
+            st.session_state.show_clicked = False
+            st.experimental_rerun()
