@@ -44,6 +44,7 @@ else:
     card = data.iloc[st.session_state.card_idx]
 
     # Display Korean and example sentence
+    st.markdown(f"*{card['category']}*")
     st.markdown(f"# {card['korean']}")
     st.markdown(f"### Ex.: {card['example']}")
     
