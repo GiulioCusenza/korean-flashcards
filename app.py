@@ -27,8 +27,8 @@ st.markdown(
 csv_path = st.sidebar.text_input("CSV file path", "flashcards.csv")
 data = load_data(csv_path)
 
-categories = ["All"] + sorted(data['category'].unique())
-selected_categories = st.sidebar.multiselect("Categories", categories, default=["All"])
+categories = sorted(data['category'].unique())
+selected_categories = st.sidebar.multiselect("Categories", categories, default=categories)
 
 if "All" not in selected_categories:
     data = data[data['category'].isin(selected_categories)]
