@@ -45,38 +45,38 @@ korean,english,example,example_translation,category
 여든셋,eighty-three,사탕이 여든세 개 있어요.,There are eighty-three candies.,korean numbers
 아흔넷,ninety-four,책이 아흔네 권 있어요.,There are ninety-four books.,korean numbers
 백,one hundred,사람이 백 명 있어요.,There are one hundred people.,korean numbers
-일,one (Sino-Korean),사과가 일 개 있어요.,There is one apple.,sinokorean numbers
-이,two (Sino-Korean),책이 이 권 있어요.,There are two books.,sinokorean numbers
-삼,three (Sino-Korean),친구가 삼 명 있어요.,I have three friends.,sinokorean numbers
-사,four (Sino-Korean),의자가 사 개 있어요.,There are four chairs.,sinokorean numbers
-오,five (Sino-Korean),손가락이 오 개 있어요.,There are five fingers.,sinokorean numbers
-육,six (Sino-Korean),연필이 육 자루 있어요.,There are six pencils.,sinokorean numbers
-칠,seven (Sino-Korean),학생이 칠 명 있어요.,There are seven students.,sinokorean numbers
-팔,eight (Sino-Korean),사탕이 팔 개 있어요.,There are eight candies.,sinokorean numbers
-구,nine (Sino-Korean),공이 구 개 있어요.,There are nine balls.,sinokorean numbers
-십,ten (Sino-Korean),책이 십 권 있어요.,There are ten books.,sinokorean numbers
-이십,twenty (Sino-Korean),사과가 이십 개 있어요.,There are twenty apples.,sinokorean numbers
-삼십,thirty (Sino-Korean),공이 삼십 개 있어요.,There are thirty balls.,sinokorean numbers
-사십,forty (Sino-Korean),사람이 사십 명 있어요.,There are forty people.,sinokorean numbers
-오십,fifty (Sino-Korean),사과가 오십 개 있어요.,There are fifty apples.,sinokorean numbers
-육십,sixty (Sino-Korean),달걀이 육십 개 있어요.,There are sixty eggs.,sinokorean numbers
-칠십,seventy (Sino-Korean),학생이 칠십 명 있어요.,There are seventy students.,sinokorean numbers
-팔십,eighty (Sino-Korean),사탕이 팔십 개 있어요.,There are eighty candies.,sinokorean numbers
-구십,ninety (Sino-Korean),책이 구십 권 있어요.,There are ninety books.,sinokorean numbers
-백,one hundred (Sino-Korean),사람이 백 명 있어요.,There are one hundred people.,sinokorean numbers
-천,one thousand (Sino-Korean),학생이 천 명 있어요.,There are one thousand students.,sinokorean numbers
-만,ten thousand (Sino-Korean),사람이 만 명 있어요.,There are ten thousand people.,sinokorean numbers
-십만,one hundred thousand (Sino-Korean),사람이 십만 명 있어요.,There are one hundred thousand people.,sinokorean numbers
-백만,one million (Sino-Korean),사람이 백만 명 있어요.,There are one million people.,sinokorean numbers
 마흔둘,forty-two,사람이 마흔두 명 있어요.,There are forty-two people.,korean numbers
 일흔일곱,seventy-seven,학생이 일흔일곱 명 있어요.,There are seventy-seven students.,korean numbers
 열다섯,fifteen,사과가 열다섯 개 있어요.,There are fifteen apples.,korean numbers
 예순셋,sixty-three,책이 예순세 권 있어요.,There are sixty-three books.,korean numbers
 아흔여덟,ninety-eight,공이 아흔여덟 개 있어요.,There are ninety-eight balls.,korean numbers
-이백삼십사,two hundred thirty-four,사과가 이백삼십사 개 있어요.,There are two hundred thirty-four apples.,korean numbers
-천오백팔십칠,one thousand five hundred eighty-seven,학생이 천오백팔십칠 명 있어요.,There are one thousand five hundred eighty-seven students.,korean numbers
-사천구백이십일,four thousand nine hundred twenty-one,책이 사천구백이십일 권 있어요.,There are four thousand nine hundred twenty-one books.,korean numbers
-팔천칠백육십오,eight thousand seven hundred sixty-five,공이 팔천칠백육십오 개 있어요.,There are eight thousand seven hundred sixty-five balls.,korean numbers
+일,one,오늘은 일 일이에요.,Today is the 1st.,sinokorean number
+이,two,지금은 이 분이에요.,It is two minutes past.,sinokorean number
+삼,three,삼 층에 살고 있어요.,I live on the third floor.,sinokorean number
+사,four,사 번 출구로 나가세요.,Exit through gate number 4.,sinokorean number
+오,five,오 달러 있어요.,I have five dollars.,sinokorean number
+육,six,육 월에 졸업했어요.,I graduated in June.,sinokorean number
+칠,seven,전화번호는 칠 이삼...입니다.,The phone number is 723...,sinokorean number
+팔,eight,팔 시에 만나요.,Let’s meet at 8 o’clock.,sinokorean number
+구,nine,구 번 버스를 타세요.,Take bus number 9.,sinokorean number
+십,ten,십 층은 회의실이에요.,The 10th floor is the meeting room.,sinokorean number
+이십,twenty,시험은 이십 분이에요.,The test is 20 minutes long.,sinokorean number
+삼십,thirty,삼십 세예요.,I am thirty years old.,sinokorean number
+사십,forty,아버지는 사십 세예요.,My father is 40 years old.,sinokorean number
+오십,fifty,오십 미터 앞에 있어요.,It's 50 meters ahead.,sinokorean number
+육십,sixty,육십 킬로그램이에요.,I weigh 60 kilograms.,sinokorean number
+칠십,seventy,그는 칠십 세입니다.,He is seventy years old.,sinokorean number
+팔십,eighty,팔십 점을 받았어요.,I got 80 points.,sinokorean number
+구십,ninety,구십 초 남았어요.,90 seconds are left.,sinokorean number
+백,one hundred,백 원 있어요.,I have 100 won.,sinokorean number
+천,one thousand,천 원짜리 있어요?,Do you have a 1000 won bill?
+만,ten thousand,만 원 주세요.,Please give me 10.000 won.,sinokorean number
+십만,one hundred thousand,십만 원이 필요해요.,I need 100.000 won.,sinokorean number
+백만,one million,백만 원을 벌었어요.,I earned 1 million won.,sinokorean number
+이백삼십사,two hundred thirty-four,방 번호는 이백삼십사예요.,The room number is 234.,sinokorean number
+천오백팔십칠,one thousand five hundred eighty-seven,주문 번호는 천오백팔십칠이에요.,The order number is 1587.,sinokorean number
+사천구백이십일,four thousand nine hundred twenty-one,우편번호는 사천구백이십일이에요.,The postal code is 4921.,sinokorean number
+팔천칠백육십오,eight thousand seven hundred sixty-five,학생 수는 팔천칠백육십오 명입니다.,The number of students is 8765.,sinokorean number
 잔,counter for cups,커피 한 잔 주세요.,Please give me one cup of coffee.,counter
 개,default counter,사과 두 개 있어요.,There are two apples.,counter
 병,counter for bottles,물 세 병 있어요.,There are three bottles of water.,counter
