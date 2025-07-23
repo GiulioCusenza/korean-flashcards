@@ -27,7 +27,13 @@ st.markdown(
 data = load_data("flashcards.csv")
 
 categories = sorted(data['category'].unique())
-selected_categories = st.sidebar.multiselect("Categories", categories, default=categories)
+
+def on_categories_change():
+    if len(data) > 0:
+        st.session_state.card_idx = min(st.session_state.card_idx, len(data) - 1)
+        
+selected_categories = st.sidebar.multiselect("Categories", categories, default=categories, on_change=on_categories_change)
+
 
 if "All" not in selected_categories:
     data = data[data['category'].isin(selected_categories)]
@@ -41,20 +47,17 @@ else:
     if 'show_clicked' not in st.session_state:
         st.session_state.show_clicked = False
 
+    st.session_state.card_idx = min(st.session_state.card_idx, len(data) - 1)
     card = data.iloc[st.session_state.card_idx]
 
-    # Display Korean and example sentence
     st.markdown(f"*{card['category']}*")
     st.markdown(f"# {card['korean']}")
     st.markdown(f"### Ex.: {card['example']}")
-    
-    # Conditionally show answer
+
     if st.session_state.show_clicked:
         st.markdown(f"## {card['english']}")
         st.markdown(f"### Ex.: {card['example_translation']}")
 
-
-    # Button handlers
     def show_answer():
         st.session_state.show_clicked = True
 
@@ -63,7 +66,6 @@ else:
         st.session_state.show_clicked = False
 
     cols = st.columns(2)
-    # Buttons with callbacks
     with cols[0]:
         st.button("Show", on_click=show_answer, disabled=st.session_state.show_clicked)
     with cols[1]:
