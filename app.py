@@ -36,6 +36,7 @@ if "All" not in selected_categories:
 if len(data) == 0:
     st.warning("No flashcards available for the selected categories.")
 else:
+    # Initialize session state
     if 'card_idx' not in st.session_state:
         st.session_state.card_idx = random.randint(0, len(data)-1)
     if 'show_clicked' not in st.session_state:
@@ -43,20 +44,27 @@ else:
 
     card = data.iloc[st.session_state.card_idx]
 
-    st.markdown(f"*{card['category']}*")
+    # Display Korean and example sentence
     st.markdown(f"# {card['korean']}")
     st.markdown(f"### Ex.: {card['example']}")
+    
+    # Conditionally show answer
+    if st.session_state.show_clicked:
+        st.markdown(f"## {card['english']}")
+        st.markdown(f"### Ex.: {card['example_translation']}")
 
-    with st.form(key='flashcard_form'):
-        if not st.session_state.show_clicked:
-            if st.form_submit_button("Show"):
-                st.session_state.show_clicked = True
-                st.experimental_rerun()
-        else:
-            st.markdown(f"## {card['english']}")
-            st.markdown(f"### Ex.: {card['example_translation']}")
 
-        if st.form_submit_button("Next"):
-            st.session_state.card_idx = random.randint(0, len(data)-1)
-            st.session_state.show_clicked = False
-            st.experimental_rerun()
+    # Button handlers
+    def show_answer():
+        st.session_state.show_clicked = True
+
+    def next_card():
+        st.session_state.card_idx = random.randint(0, len(data) - 1)
+        st.session_state.show_clicked = False
+
+    cols = st.columns(2)
+    # Buttons with callbacks
+    with cols[0]:
+        st.button("Show", on_click=show_answer, disabled=st.session_state.show_clicked)
+    with cols[1]:
+        st.button("Next", on_click=next_card)
