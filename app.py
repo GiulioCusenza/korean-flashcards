@@ -24,8 +24,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-csv_path = st.sidebar.text_input("CSV file path", "flashcards.csv")
-data = load_data(csv_path)
+data = load_data("flashcards.csv")
 
 categories = sorted(data['category'].unique())
 selected_categories = st.sidebar.multiselect("Categories", categories, default=categories)
